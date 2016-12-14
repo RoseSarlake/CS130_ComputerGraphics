@@ -1,0 +1,10 @@
+#version 430
+
+in vec3 position;
+
+void main()
+{
+    gl_Position=vec4(position,1.0);
+}
+
+//the second number controls the scaling of the position
